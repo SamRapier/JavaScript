@@ -44,7 +44,7 @@ class Bird {
 
   // Display the bird
   show() {
-    fill(200,100,0, 100);
+    fill(50,50,50, 100);
     stroke(255);
     ellipse(this.x, this.y, this.r * 2, this.r * 2);
   }

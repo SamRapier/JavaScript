@@ -6,7 +6,7 @@
 // https://youtu.be/cXgA1d_E-jY&
 
 // How big is the population
-let totalPopulation = 250;
+let totalPopulation = 100;
 // All active birds (not yet collided with pipe)
 let activeBirds = [];
 // All birds for any given population
@@ -75,7 +75,7 @@ function toggleState() {
 
 
 function draw() {
-  background(0,100,200);
+  background(175,175,175);
 
   // Should we speed up cycles per frame
   let cycles = speedSlider.value();

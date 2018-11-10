@@ -38,7 +38,7 @@ class Pipe {
   show() {
     // stroke(0);
     noStroke();
-    fill(0,170,50);
+    fill(255,255,255);
     rect(this.x, 0, this.w, this.top);
     rect(this.x, height - this.bottom, this.w, this.bottom);
   }
